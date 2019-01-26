@@ -1,0 +1,9 @@
+version: '3'
+services:
+  swoole:
+    container_name: siler_swoole
+    build: .
+    ports:
+      - '9501:9501'
+    volumes:
+      - ../../:/app

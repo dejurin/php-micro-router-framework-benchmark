@@ -1,3 +1,3 @@
 #!/bin/sh
 
-url="$base/$fw/"
+url="$base/$fw/index.php"
