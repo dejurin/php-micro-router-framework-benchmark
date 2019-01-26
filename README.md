@@ -92,8 +92,8 @@ See <http://localhost/php-micro-router-framework-benchmark/>.
 If you want to benchmark some frameworks:
 
 ~~~
-$ bash setup.sh PHP-Router/ flight/ lumen-5.1/ lumen/
-$ bash benchmark.sh PHP-Router/ flight/ lumen-5.1/ lumen/
+$ bash setup.sh PHP-Router/ flight/ lumen/
+$ bash benchmark.sh PHP-Router/ flight/ lumen/
 ~~~
 
 ## Linux Kernel Configuration
