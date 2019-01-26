@@ -1,0 +1,5 @@
+{
+    "require": {
+        "tipsyphp/tipsy": "^0.11.12"
+    }
+}
