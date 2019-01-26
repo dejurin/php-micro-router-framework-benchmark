@@ -1,0 +1,23 @@
+{
+    "name": "ivopetkov/docs-generator",
+    "description": "",
+    "keywords": ["php", "docs", "generator"],
+    "homepage": "https://github.com/ivopetkov/docs-generator",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ivo Petkov",
+            "email": "ivo@ivopetkov.com",
+            "homepage": "http://ivopetkov.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "6.*|7.*"
+    },
+    "autoload": {
+        "files": ["autoload.php"]
+    }
+}

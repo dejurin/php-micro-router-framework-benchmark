@@ -1,10 +1,17 @@
-AltoRouter: 1652.90:   432088: 0.0011684: 2
-FastRoute: 866.74:   537760: 0.0025762: 15
-fatfree: :  1454400: 0.0039062: 2
-flight: 1071.29:   657376: 0.0030555: 15
-klein.php: 0.20:   772464: 0.0052443: 20
-limonade: 821.21:   988536: 0.0025753: 2
-lumen: 281.85:  3022432: 0.0120158: 50
-PHP-Router: 71.37:   496008: 0.0017016: 8
-siler-1.3: 670.32:   801984: 0.0032503: 22
-Slim-3.x: 0.18:  1367288: 0.007538: 56
+AltoRouter: 1607.60:   432088: 0.0010466: 2
+FastRoute: 710.67:   537760: 0.0024019: 15
+fatfree: 78.87:  1454400: 0.0036115: 2
+flight: 1069.25:   657376: 0.0030636: 15
+klein.php: 0.20:   772464: 0.0050117: 20
+limonade: 296.33:   988536: 0.0030719: 2
+lumen: 250.07:  3022432: 0.0126069: 50
+PHP-Router: 992.31:   496008: 0.001817: 8
+siler-1.3: 14.47:   801984: 0.0034671: 22
+Slim-3.x: 0.20:  1367280: 0.0078768: 56
+tipsy: 750.20: Hello world!: 
+Warning: A non-numeric value encountered in /Users/yy/dev/php-micro-router-framework-benchmark/benchmarks/avg_ms.php on line 6
+
+Warning: A non-numeric value encountered in /Users/yy/dev/php-micro-router-framework-benchmark/benchmarks/avg_ms.php on line 6
+
+Warning: Division by zero in /Users/yy/dev/php-micro-router-framework-benchmark/benchmarks/avg_ms.php on line 6
+NAN: Hello world!
