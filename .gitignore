@@ -1,3 +1,5 @@
 
 flight/.DS_Store
 .DS_Store
+output/
+output/results.hello_world.log
