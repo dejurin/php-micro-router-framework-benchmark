@@ -16,3 +16,5 @@ Route\get('/hello/{name}', function ($params) {
 Route\get('/hello-world/{name}', 'examples/hello-world/hello-world.phtml');
 
 //Route\get('/functional-hello', λ\puts('Hello Functional World'));
+
+require $_SERVER['DOCUMENT_ROOT'].'/php-micro-router-framework-benchmark/libs/output_data.php';

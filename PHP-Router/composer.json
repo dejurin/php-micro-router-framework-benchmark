@@ -1,0 +1,5 @@
+{
+    "require": {
+        "dannyvankooten/php-router": "@dev"
+    }
+}

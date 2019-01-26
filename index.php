@@ -78,7 +78,7 @@ if (file_exists($url_file)) {
 <hr>
 
 <footer>
-    <p style="text-align: right">This page is a part of <a href="https://github.com/kenjis/php-framework-benchmark">php-framework-benchmark</a>.</p>
+    <p style="text-align: right">This page is a part of <a href="https://github.com/dejurin/php-micro-router-framework-benchmark">php-micro-router-framework-benchmark</a>, powered by <a href="https://github.com/kenjis/php-framework-benchmark">php-framework-benchmark</a>.</p>
 </footer>
 </body>
 </html>

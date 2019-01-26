@@ -1,8 +1,14 @@
 #!/bin/sh
 
 list="
+AltoRouter
+FastRoute
+fatfree
 flight
+klein.php
+limonade
+lumen
+PHP-Router
 siler-1.3
-ci-3.1
-no-framework
+Slim-3.x
 "
