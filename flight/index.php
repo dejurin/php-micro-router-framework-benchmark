@@ -2,7 +2,7 @@
 require 'flight/Flight.php';
 
 Flight::route('/', function(){
-    echo 'hello world!';
+    echo 'Hello World!';
 });
 
 Flight::start();

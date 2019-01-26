@@ -5,9 +5,9 @@ require __DIR__ . '/../libs/build_table.php';
 require __DIR__ . '/../libs/recalc_relative.php';
 
 $list = [
-    'cake-3.0',
-    'symfony-2.6',
-    'zf-2.4',
+    'flight',
+    'ci-3.1',
+    'siler-1.3',
 ];
 
 system('git checkout master');

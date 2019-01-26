@@ -1,14 +1,14 @@
-flight: : : 
+flight: 1058.02: Hello World!: 
 Warning: A non-numeric value encountered in /Users/yy/dev/php-micro-router-framework-benchmark/benchmarks/avg_ms.php on line 6
 
 Warning: A non-numeric value encountered in /Users/yy/dev/php-micro-router-framework-benchmark/benchmarks/avg_ms.php on line 6
 
 Warning: Division by zero in /Users/yy/dev/php-micro-router-framework-benchmark/benchmarks/avg_ms.php on line 6
-NAN: 
-siler-1.3: : : 
+NAN: Hello World!
+siler-1.3: 176.42: Hello World!: 
 Warning: A non-numeric value encountered in /Users/yy/dev/php-micro-router-framework-benchmark/benchmarks/avg_ms.php on line 6
 
 Warning: A non-numeric value encountered in /Users/yy/dev/php-micro-router-framework-benchmark/benchmarks/avg_ms.php on line 6
 
 Warning: Division by zero in /Users/yy/dev/php-micro-router-framework-benchmark/benchmarks/avg_ms.php on line 6
-NAN: 
+NAN: Hello World!
