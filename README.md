@@ -1,5 +1,5 @@
 # PHP Micro & Router Framework Benchmark
-I often use micro & router so I decided to do Benchmark. This benchmark made thanks to ([@kenjis](https://github.com/kenjis)) [PHP-Framework-Benchmark](https://github.com/kenjis/php-framework-benchmark). This is not my development, I just copied and made my compilation.
+I often use micro & router so I decided to do benchmark. This benchmark made thanks to ([@kenjis](https://github.com/kenjis)) [PHP-Framework-Benchmark](https://github.com/kenjis/php-framework-benchmark). This is not my development, I just copied and made my compilation.
 
 ## PHP Framework Benchmark
 
