@@ -112,7 +112,7 @@ and run `sudo sysctl -p`.
 If you want to see current configuration, run `sudo sysctl -a`.
 
 ## References
-
+* [php-framework-benchmark](https://github.com/kenjis/php-framework-benchmark) ([@kenjis](https://github.com/kenjis))
 * [wrk](https://github.com/wg/wrk) - Modern HTTP benchmarking tool
 * [PHP-Router](https://github.com/dannyvankooten/PHP-Router) ([@dannyvankooten](https://github.com/dannyvankooten))
 * [FatFree](http://fatfreeframework.com/) ([@phpfatfree](https://twitter.com/phpfatfree))
@@ -121,7 +121,6 @@ If you want to see current configuration, run `sudo sysctl -a`.
 * [Tipsy](http://tipsy.la)
 * [Limonade](https://limonade-php.github.io/)
 * [AltoRouter](http://altorouter.com/)
-* [Lumen](http://lumen.laravel.com/)
 * [FastRoute](https://github.com/nikic/FastRoute) ([@nikic](https://github.com/nikic))
 * [Bear Framework](https://bearframework.com/)
 * [Klein.php](https://github.com/klein/klein.php)
