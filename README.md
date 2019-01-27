@@ -55,7 +55,7 @@ These are my benchmarks, not yours. **I encourage you to run on your (production
 
 Note(1): Please note that the two frameworks: klein.php, Slim-3.x are significantly smaller than the others. I honestly do not understand why this is so, and I will be grateful if someone explains it.
 
-Note(2): This benchmarks are limited by `wrk` (https://github.com/wg/wrk) performance.
+Note(2): This benchmarks are limited by `wrk` https://github.com/wg/wrk performance.
 
 ## How to Benchmark
 

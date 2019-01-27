@@ -5,10 +5,10 @@ function build_table($results, $header = true)
     $table = '';
 
     if ($header) {
-        $table .= '|framework          |requests per second|relative|peak memory|relative|files|          type|' . "\n";
-        $table .= '|-------------------|------------------:|-------:|----------:|-------:|----:|-------------:|' . "\n";
+        $table .= '|framework          |requests per second|relative|peak memory|relative|files|          type|'."\n";
+        $table .= '|-------------------|------------------:|-------:|----------:|-------:|----:|-------------:|'."\n";
     }
-    
+
     foreach ($results as $fw => $result) {
         $table .= sprintf(
             "|%-19s|%19s|%8s|%11s|%8s|%5s|%14s|\n",
