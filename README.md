@@ -46,6 +46,7 @@ If you find something wrong with my code, please feel free to send Pull Requests
 These are my benchmarks, not yours. **I encourage you to run on your (production equivalent) environments.**
 (2019/01/27)
 
+[**Show charts**](https://codepen.io/currencyrate_today/pen/gqrBEa)
 ![Requests per second](img/WRK_screenshot-localhost-2019.01.27_1.png)
 ![Included files](img/WRK_screenshot-localhost-2019.01.27_2.png)
 ![Exec time](img/WRK_screenshot-localhost-2019.01.27_3.png)
