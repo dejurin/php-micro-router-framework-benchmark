@@ -18,7 +18,7 @@ benchmark ()
     transfer=`grep "Transfer/sec:" "$wrk_log" | cut -c 14-100 | sed -e 's/  */ /g' -e 's/^ *\(.*\) *$/\1/'`
 
     echo "Requests per second: $rps, Transfer/sec: $transfer"
-    sleep 90
+    #sleep 90
 
     # get time
     count=10
