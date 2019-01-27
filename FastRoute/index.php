@@ -17,7 +17,7 @@ if (false !== $pos = strpos($uri, '?')) {
 $uri = rawurldecode($uri);
 
 function hello_world() {
-	echo "Hello World!";
+	echo "Hello world!";
 }
 
 $routeInfo = $dispatcher->dispatch($httpMethod, $uri);

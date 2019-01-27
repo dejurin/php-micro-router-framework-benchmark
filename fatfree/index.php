@@ -12,7 +12,7 @@ $f3->config('config.ini');
 
 $f3->route('GET /',
 	function($f3) {
-		echo 'Hello World!';
+		echo 'Hello world!';
 	}
 );
 

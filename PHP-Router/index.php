@@ -9,7 +9,7 @@ final class SomeController
 {
     public function indexAction()
     {
-        echo "Hello World!";
+        echo "Hello world!";
     }
 }
 

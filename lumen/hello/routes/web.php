@@ -12,5 +12,5 @@
 */
 
 $router->get('/', function () use ($router) {
-    return 'Hello World!';
+    return 'Hello world!';
 });

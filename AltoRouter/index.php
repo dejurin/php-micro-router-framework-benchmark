@@ -5,7 +5,7 @@ require 'AltoRouter.php';
 $router = new AltoRouter();
 $router->setBasePath('php-micro-router-framework-benchmark/AltoRouter/');
 $router->map('GET|POST','/', function() {
-	echo "Hello World!";
+	echo "Hello world!";
 }, 'home');
 
 // match current request
