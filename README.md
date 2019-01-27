@@ -52,6 +52,7 @@ These are my benchmarks, not yours. **I encourage you to run on your (production
 ![Memory (MB)](img/WRK_screenshot-localhost-2019.01.27_4.png)
 
 **CentOS 7.6**
+
 |framework          |requests per second|relative|peak memory|relative|files|          type|
 |-------------------|------------------:|-------:|----------:|-------:|----:|-------------:|
 |no-framework       |          11,742.54|    19.7|       0.41|     1.0|    1|  no-framework|
@@ -68,6 +69,7 @@ These are my benchmarks, not yours. **I encourage you to run on your (production
 |Slim-3.x           |             595.05|     1.0|       1.39|     3.4|   56|         micro|
 
 **macOS Mojave 10.14.2**
+
 |framework          |requests per second|relative|peak memory|relative|files|          type|
 |-------------------|------------------:|-------:|----------:|-------:|----:|-------------:|
 |no-framework       |           4,573.15|     7.2|       0.37|     1.0|    1|  no-framework|
