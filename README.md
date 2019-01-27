@@ -33,16 +33,13 @@ But if you are interested in benchmarking with optimization (removing components
 
 If you find something wrong with my code, please feel free to send Pull Requests. But please note optimizing only for "Hello world!" is not acceptable. Building fastest "Hello world!" application is not the goal in this project.
 
-## Results (MAC OS X)
+## Results
 
 ### Benchmarking Environment
-* macOS Mojave 10.14.2
-* Processor Name: Intel Core i7
-* Processor Speed: 4.2 GHz
-* Memory: 40 GB
-* PHP 7.3.1 (cli) (built: Jan 10 2019 13:15:37) ( NTS )
-* Zend Engine v3.3.1, Copyright (c) 1998-2018 Zend Technologies with Zend OPcache v7.3.1, Copyright (c) 1999-2018, by Zend Technologies
-* Apache/2.4.34 (Unix)
+
+* CentOS Linux release 7.6.1810 
+* PHP 7.3.1
+* Apache/2.4.6
 
 ### Hello world! Benchmark
 
@@ -53,11 +50,20 @@ These are my benchmarks, not yours. **I encourage you to run on your (production
 
 |framework          |requests per second|relative|peak memory|relative|files|          type|
 |-------------------|------------------:|-------:|----------:|-------:|----:|-------------:|
-|fatfree            |           1,001.38|     1.0|       1.39|     1.0|    2|         micro|
+|no-framework       |          11,742.54|    19.7|       0.41|     1.0|    1|  no-framework|
+|AltoRouter         |           3,619.92|     6.1|       0.50|     1.2|    6|        router|
+|PHP-Router         |           3,358.57|     5.6|       0.52|     1.3|    8|        router|
+|FastRoute          |           2,463.59|     4.1|       0.55|     1.3|   15|        router|
+|flight             |           1,660.40|     2.8|       0.68|     1.6|   15|         micro|
+|tipsy              |           1,617.18|     2.7|       0.66|     1.6|   16|         micro|
+|limonade           |           1,439.16|     2.4|       1.02|     2.5|    6|         micro|
+|siler-1.3          |           1,397.18|     2.3|       0.88|     2.1|   22|         micro|
+|klein.php          |           1,271.65|     2.1|       0.78|     1.9|   20|        router|
+|bearframework      |           1,065.35|     1.8|       0.94|     2.3|   22|         micro|
+|fatfree            |           1,049.13|     1.8|       1.50|     3.6|    6|         micro|
+|Slim-3.x           |             595.05|     1.0|       1.39|     3.4|   56|         micro|
 
-Note(1): Please note that the two frameworks: klein.php, Slim-3.x are significantly smaller than the others. I honestly do not understand why this is so, and I will be grateful if someone explains it.
-
-Note(2): This benchmarks are limited by `wrk` https://github.com/wg/wrk performance.
+Note(1): This benchmarks are limited by `wrk` https://github.com/wg/wrk performance.
 
 ## How to Benchmark
 
