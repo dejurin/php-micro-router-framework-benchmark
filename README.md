@@ -47,7 +47,7 @@ If you find something wrong with my code, please feel free to send Pull Requests
 These are my benchmarks, not yours. **I encourage you to run on your (production equivalent) environments.**
 (2019/01/27)
 
-![Benchmark Results Graph](img/AWK_screenshot-localhost-2019.01.27.png)
+![Benchmark Results Graph](img/WRK_screenshot-localhost-2019.01.27.png)
 
 |framework          |requests per second|relative|peak memory|relative|files|          type|
 |-------------------|------------------:|-------:|----------:|-------:|----:|-------------:|
@@ -55,7 +55,7 @@ These are my benchmarks, not yours. **I encourage you to run on your (production
 
 Note(1): Please note that the two frameworks: klein.php, Slim-3.x are significantly smaller than the others. I honestly do not understand why this is so, and I will be grateful if someone explains it.
 
-Note(2): This benchmarks are limited by `awk` performance.
+Note(2): This benchmarks are limited by `[wrk](https://github.com/wg/wrk)` performance.
 
 ## How to Benchmark
 
@@ -102,6 +102,7 @@ If you want to see current configuration, run `sudo sysctl -a`.
 
 ## References
 
+* [wrk](https://github.com/wg/wrk) - Modern HTTP benchmarking tool
 * [PHP-Router](https://github.com/dannyvankooten/PHP-Router) ([@dannyvankooten](https://github.com/dannyvankooten))
 * [FatFree](http://fatfreeframework.com/) ([@phpfatfree](https://twitter.com/phpfatfree))
 * [Flight](http://flightphp.com/)
