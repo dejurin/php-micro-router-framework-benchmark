@@ -47,9 +47,9 @@ These are my benchmarks, not yours. **I encourage you to run on your (production
 (2019/01/27)
 
 ![Requests per second](img/WRK_screenshot-localhost-2019.01.27_1.png)
-![Count](img/WRK_screenshot-localhost-2019.01.27_2.png)
-![Ms](img/WRK_screenshot-localhost-2019.01.27_3.png)
-![Peak memory (MB)](img/WRK_screenshot-localhost-2019.01.27_4.png)
+![Included files](img/WRK_screenshot-localhost-2019.01.27_2.png)
+![Exec time](img/WRK_screenshot-localhost-2019.01.27_3.png)
+![Memory (MB)](img/WRK_screenshot-localhost-2019.01.27_4.png)
 
 |framework          |requests per second|relative|peak memory|relative|files|          type|
 |-------------------|------------------:|-------:|----------:|-------:|----:|-------------:|
