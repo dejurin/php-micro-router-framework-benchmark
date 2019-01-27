@@ -15,10 +15,11 @@ fi
 
 for fw in $targets
 do
-    if [ -d "$fw" ]; then
+    if [ -d "frameworks/$fw" ]; then
         echo "***** $fw *****"
         cd "frameworks/$fw"
         composer update
+        cd ..
         cd ..
     fi
 done
