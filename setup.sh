@@ -25,10 +25,9 @@ fi
 
 for fw in $targets
 do
-    fw="frameworks/$fw"
-    if [ -d "$fw" ]; then
+    if [ -d "frameworks/$fw" ]; then
         echo "***** $fw *****"
-        cd "$fw"
+        cd "frameworks/$fw"
         . "_benchmark/setup.sh"
         cd ..
         cd ..
