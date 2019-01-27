@@ -5,8 +5,8 @@ if [ ! `which composer` ]; then
     exit 1;
 fi
 
-if [ ! `which awk` ]; then
-    echo "awk command not found."
+if [ ! `which wrk` ]; then
+    echo "wrk command not found. Go to https://github.com/wg/wrk"
     exit 1;
 fi
 
