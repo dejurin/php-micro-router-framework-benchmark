@@ -31,7 +31,7 @@ Some people may think using default configuration is not fair. But I think a fra
 
 But if you are interested in benchmarking with optimization (removing components/configurations which are not used), See [optimize](https://github.com/kenjis/php-framework-benchmark/tree/optimize) branch.
 
-If you find something wrong with my code, please feel free to send Pull Requests. But please note optimizing only for "Hello World" is not acceptable. Building fastest "Hello World" application is not the goal in this project.
+If you find something wrong with my code, please feel free to send Pull Requests. But please note optimizing only for "Hello world!" is not acceptable. Building fastest "Hello world!" application is not the goal in this project.
 
 ## Results (MAC OS X)
 
@@ -44,7 +44,7 @@ If you find something wrong with my code, please feel free to send Pull Requests
 * Zend Engine v3.3.1, Copyright (c) 1998-2018 Zend Technologies with Zend OPcache v7.3.1, Copyright (c) 1999-2018, by Zend Technologies
 * Apache/2.4.34 (Unix)
 
-### Hello World Benchmark
+### Hello world! Benchmark
 
 These are my benchmarks, not yours. **I encourage you to run on your (production equivalent) environments.**
 (2019/01/27)
