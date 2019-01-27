@@ -1,4 +1,4 @@
 #!/bin/sh
 
-url="$base/$fw/index.php"
+url="$base/$fw/"
 type="no-framework"

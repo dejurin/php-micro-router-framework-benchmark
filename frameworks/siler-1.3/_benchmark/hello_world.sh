@@ -1,4 +1,4 @@
 #!/bin/sh
 
-url="$base/$fw/examples/hello-world/"
+url="$base/$fw/"
 type="micro"
