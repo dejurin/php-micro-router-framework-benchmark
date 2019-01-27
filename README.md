@@ -1,5 +1,5 @@
 # PHP Micro & Router Framework Benchmark
-I often use micro & router so I decided to do benchmark. This benchmark made thanks to ([@kenjis](https://github.com/kenjis)) [PHP-Framework-Benchmark](https://github.com/kenjis/php-framework-benchmark). This is not my development, I just copied and made my compilation.
+I often use micro & router so I decided to do benchmark. This benchmark made thanks to ([@kenjis](https://github.com/kenjis)) [PHP-Framework-Benchmark](https://github.com/kenjis/php-framework-benchmark). This is not my development, I just fork and made my compilation.
 
 ## PHP Framework Benchmark
 
@@ -49,21 +49,21 @@ These are my benchmarks, not yours. **I encourage you to run on your (production
 
 ![Benchmark Results Graph](img/screenshot-localhost-2019.01.27.png)
 
-|framework          |requests per second|relative|peak memory|relative|
-|-------------------|------------------:|-------:|----------:|-------:|
-|no-framework       |           1,994.65|10,498.2|       0.37|     1.0|
-|PHP-Router         |           1,458.65| 7,677.1|       0.47|     1.3|
-|fatfree            |           1,115.54| 5,871.3|       1.39|     3.7|
-|flight             |             746.61| 3,929.5|       0.63|     1.7|
-|siler-1.3          |             198.54| 1,044.9|       0.76|     2.0|
-|tipsy              |             123.81|   651.6|       0.61|     1.6|
-|limonade           |             118.68|   624.6|       0.94|     2.5|
-|AltoRouter         |              68.69|   361.5|       0.41|     1.1|
-|lumen              |              60.61|   319.0|       2.88|     7.8|
-|FastRoute          |              38.27|   201.4|       0.51|     1.4|
-|bearframework      |              37.63|   198.1|       1.09|     2.9|
-|klein.php          |               0.20|     1.1|       0.74|     2.0|
-|Slim-3.x           |               0.19|     1.0|       1.30|     3.5|
+|framework          |requests per second|relative|peak memory|relative|type|
+|-------------------|------------------:|-------:|----------:|-------:|-------:|
+|no-framework       |           1,994.65|10,498.2|       0.37|     1.0|no-framework|
+|PHP-Router         |           1,458.65| 7,677.1|       0.47|     1.3|router|
+|fatfree            |           1,115.54| 5,871.3|       1.39|     3.7|micro|
+|flight             |             746.61| 3,929.5|       0.63|     1.7|micro|
+|siler-1.3          |             198.54| 1,044.9|       0.76|     2.0|micro|
+|tipsy              |             123.81|   651.6|       0.61|     1.6|micro|
+|limonade           |             118.68|   624.6|       0.94|     2.5|micro|
+|AltoRouter         |              68.69|   361.5|       0.41|     1.1|router|
+|lumen              |              60.61|   319.0|       2.88|     7.8|micro|
+|FastRoute          |              38.27|   201.4|       0.51|     1.4|router|
+|bearframework      |              37.63|   198.1|       1.09|     2.9|micro|
+|klein.php          |               0.20|     1.1|       0.74|     2.0|router|
+|Slim-3.x           |               0.19|     1.0|       1.30|     3.5|micro|
 
 Note(1): Please note that the two frameworks: klein.php, Slim-3.x are significantly smaller than the others. I honestly do not understand why this is so, and I will be grateful if someone explains it.
 
@@ -92,8 +92,8 @@ See <http://localhost/php-micro-router-framework-benchmark/>.
 If you want to benchmark some frameworks:
 
 ~~~
-$ bash setup.sh PHP-Router/ flight/ lumen-5.1/ lumen/
-$ bash benchmark.sh PHP-Router/ flight/ lumen-5.1/ lumen/
+$ bash setup.sh PHP-Router/ flight/ lumen/
+$ bash benchmark.sh PHP-Router/ flight/ lumen/
 ~~~
 
 ## Linux Kernel Configuration
@@ -128,3 +128,5 @@ If you want to see current configuration, run `sudo sysctl -a`.
 * [Bear Framework](https://bearframework.com/)
 * [Klein.php](https://github.com/klein/klein.php)
 * [Slim](http://www.slimframework.com/) ([@slimphp](https://twitter.com/slimphp))
+
+(https://github.com/kenjis/php-framework-benchmark/issues/62)
