@@ -17,6 +17,7 @@ function parse_results($file)
         $memory = (float) trim($column[2])/1024/1024;
         $time   = (float) trim($column[3])*1000;
         $file   = (int) trim($column[4]);
+        $type   = (string) trim($column[5]);
         
         $min_rps    = min($min_rps, $rps);
         $min_memory = min($min_memory, $memory);
@@ -28,6 +29,7 @@ function parse_results($file)
             'memory' => round($memory, 2),
             'time'   => $time,
             'file'   => $file,
+            'type'   => $type,
         ];
     }
     

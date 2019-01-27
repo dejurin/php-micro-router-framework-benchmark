@@ -18,6 +18,7 @@ benchmark ()
     transfer=`grep "Transfer/sec:" "$wrk_log" | cut -c 14-100 | sed -e 's/  */ /g' -e 's/^ *\(.*\) *$/\1/'`
 
     echo "Requests per second: $rps, Transfer/sec: $transfer"
+    sleep 90
 
     # get time
     count=10
@@ -33,7 +34,7 @@ benchmark ()
     memory=`tail -1 "$output" | cut -f 1 -d ':'`
     file=`tail -1 "$output" | cut -f 3 -d ':'`
 
-    echo "$fw: $rps: $memory: $time: $file" >> "$results_file"
+    echo "$fw: $rps: $memory: $time: $file: $type" >> "$results_file"
 
     echo "$fw" >> "$check_file"
     #grep "Document Length:" "$ab_log" >> "$check_file"
