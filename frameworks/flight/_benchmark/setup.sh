@@ -1,3 +1,3 @@
 #!/bin/sh
 
-composer install --optimize-autoloader
+composer install --no-dev --optimize-autoloader

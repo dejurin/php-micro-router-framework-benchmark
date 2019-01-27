@@ -3,7 +3,7 @@
 require 'vendor/autoload.php';
 
 $dispatcher = FastRoute\simpleDispatcher(function(FastRoute\RouteCollector $r) {
-    $r->addRoute('GET', '/php-micro-router-framework-benchmark/FastRoute/', 'hello_world');
+    $r->addRoute('GET', $_SERVER['REQUEST_URI'], 'hello_world');
 });
 
 // Fetch method and URI from somewhere
