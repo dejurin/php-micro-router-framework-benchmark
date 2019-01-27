@@ -31,7 +31,7 @@ But if you are interested in benchmarking with optimization (removing components
 
 If you find something wrong with my code, please feel free to send Pull Requests. But please note optimizing only for "Hello World" is not acceptable. Building fastest "Hello World" application is not the goal in this project.
 
-## Results
+## Results (MAC OS X)
 
 ### Benchmarking Environment
 * macOS Mojave 10.14.2
