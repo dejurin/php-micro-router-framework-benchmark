@@ -46,7 +46,10 @@ If you find something wrong with my code, please feel free to send Pull Requests
 These are my benchmarks, not yours. **I encourage you to run on your (production equivalent) environments.**
 (2019/01/27)
 
-![Benchmark Results Graph](img/WRK_screenshot-localhost-2019.01.27.png)
+![Requests per second](img/WRK_screenshot-localhost-2019.01.27_1.png)
+![Count](img/WRK_screenshot-localhost-2019.01.27_2.png)
+![Ms](img/WRK_screenshot-localhost-2019.01.27_3.png)
+![Peak memory (MB)](img/WRK_screenshot-localhost-2019.01.27_4.png)
 
 |framework          |requests per second|relative|peak memory|relative|files|          type|
 |-------------------|------------------:|-------:|----------:|-------:|----:|-------------:|
