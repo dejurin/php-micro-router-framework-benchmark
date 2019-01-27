@@ -27,7 +27,7 @@ for fw in $targets
 do
     if [ -d "$fw" ]; then
         echo "***** $fw *****"
-        cd "$fw"
+        cd "frameworks/$fw"
         . "_benchmark/setup.sh"
         cd ..
     fi
