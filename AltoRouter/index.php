@@ -1,6 +1,6 @@
 <?php
 
-require 'AltoRouter.php';
+require 'vendor/autoload.php';
 
 $router = new AltoRouter();
 $router->setBasePath('php-micro-router-framework-benchmark/AltoRouter/');

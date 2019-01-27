@@ -6,5 +6,5 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    '6766b12fe77434412be24043b58480fd' => $baseDir . '/lib/limonade.php',
+    '6766b12fe77434412be24043b58480fd' => $vendorDir . '/sofadesign/limonade/lib/limonade.php',
 );

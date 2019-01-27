@@ -1,6 +1,0 @@
-base_path: /blog
-
-routes:
-  index: [/index, Controller.method, GET]
-  contact: [/contact, someClass.contactAction, GET]
-  about: [/about, someClass.aboutAction, GET]

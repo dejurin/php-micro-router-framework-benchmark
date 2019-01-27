@@ -9,7 +9,6 @@ klein.php
 fatfree
 flight
 limonade
-lumen
 siler-1.3
 Slim-3.x
 tipsy

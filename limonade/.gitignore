@@ -1,6 +1,0 @@
-.DS_STORE
-.tmproj
-tests/config/config.php
-cookiefile
-**/cookiefile
-*.un~

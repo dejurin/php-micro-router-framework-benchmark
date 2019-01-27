@@ -4,10 +4,10 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit3869be51460bfe7aefb1289e9bd6a23f
+class ComposerStaticInit14a8fa3b5170c10431de497b715ffd8a
 {
     public static $files = array (
-        '6766b12fe77434412be24043b58480fd' => __DIR__ . '/../..' . '/lib/limonade.php',
+        '6766b12fe77434412be24043b58480fd' => __DIR__ . '/..' . '/sofadesign/limonade/lib/limonade.php',
     );
 
     public static function getInitializer(ClassLoader $loader)
