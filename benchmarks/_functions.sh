@@ -48,10 +48,10 @@ benchmark ()
     touch "$error_file"
     error=''
     #x=`grep 'Failed requests:        0' "$ab_log"`
-    x=`grep 'Failed requests:        0' "$wrk_log"`
+    x=`grep 'Socket errors: connect 0' "$wrk_log"`
     if [ "$x" = "" ]; then
         #tmp=`grep "Failed requests:" "$ab_log"`
-        tmp=`grep "Failed requests:" "$wrk_log"`
+        tmp=`grep "Socket errors:" "$wrk_log"`
         error="$error$tmp"
     fi
     x=`grep 'Hello world!' "$output"`

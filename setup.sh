@@ -1,5 +1,7 @@
 #!/bin/sh
 
+setup_log="../../output/setup.log"
+
 if [ ! `which composer` ]; then
     echo "composer command not found."
     exit 1;
@@ -29,6 +31,7 @@ do
         echo "***** $fw *****"
         cd "frameworks/$fw"
         . "_benchmark/setup.sh"
+        echo "frameworks/$fw/_benchmark/setup.sh" >> "$setup_log"
         cd ..
         cd ..
     fi

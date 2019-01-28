@@ -1,6 +1,6 @@
 <?php
 
-if (!file_exists(__DIR__.'/output/results.hello_world.log')) {
+if (!file_exists(__DIR__.'/output/setup.log')) {
     echo '<h1>Frameworks are not ready.</h1>';
     echo '<pre>bash setup.sh</pre>';
     exit;
