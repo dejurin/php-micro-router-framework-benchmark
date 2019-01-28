@@ -1,3 +1,12 @@
+<?php
+
+if (!file_exists(__DIR__.'/output/results.hello_world.log')) {
+    echo '<h1>Frameworks are not ready.</h1>';
+    echo '<pre>bash setup.sh</pre>';
+    exit;
+}
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,8 +19,8 @@
 <?php
     if ($handle = opendir('./frameworks/')) {
         while (false !== ($entry = readdir($handle))) {
-            if ($entry != "." && $entry != ".." && is_dir(__DIR__.'/frameworks/'.$entry)) {
-                echo '<li><a href="/php-micro-router-framework-benchmark/frameworks/'.$entry.'/">'.$entry."</a></li>".PHP_EOL;
+            if ('.' != $entry && '..' != $entry && is_dir(__DIR__.'/frameworks/'.$entry)) {
+                echo '<li><a href="/php-micro-router-framework-benchmark/frameworks/'.$entry.'/">'.$entry.'</a></li>'.PHP_EOL;
             }
         }
         closedir($handle);

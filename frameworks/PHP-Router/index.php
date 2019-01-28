@@ -1,4 +1,5 @@
 <?php
+
 require __DIR__.'/vendor/autoload.php';
 
 use PHPRouter\RouteCollection;
@@ -9,14 +10,14 @@ final class SomeController
 {
     public function indexAction()
     {
-        echo "Hello world!";
+        echo 'Hello world!';
     }
 }
 
 $collection = new RouteCollection();
 $collection->attachRoute(new Route('/', array(
     '_controller' => 'SomeController::indexAction',
-    'methods' => 'GET'
+    'methods' => 'GET',
 )));
 
 $router = new Router($collection);

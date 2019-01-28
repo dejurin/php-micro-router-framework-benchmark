@@ -2,7 +2,7 @@
 
 require 'vendor/autoload.php';
 
-$dispatcher = FastRoute\simpleDispatcher(function(FastRoute\RouteCollector $r) {
+$dispatcher = FastRoute\simpleDispatcher(function (FastRoute\RouteCollector $r) {
     $r->addRoute('GET', $_SERVER['REQUEST_URI'], 'hello_world');
 });
 
@@ -16,8 +16,9 @@ if (false !== $pos = strpos($uri, '?')) {
 }
 $uri = rawurldecode($uri);
 
-function hello_world() {
-	echo "Hello world!";
+function hello_world()
+{
+    echo 'Hello world!';
 }
 
 $routeInfo = $dispatcher->dispatch($httpMethod, $uri);
@@ -33,7 +34,7 @@ switch ($routeInfo[0]) {
     case FastRoute\Dispatcher::FOUND:
         $handler = $routeInfo[1];
         $vars = $routeInfo[2];
-       	call_user_func_array($handler, $vars); 
+           call_user_func_array($handler, $vars);
         break;
 }
 

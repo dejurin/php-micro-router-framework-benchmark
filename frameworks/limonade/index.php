@@ -3,8 +3,9 @@
 require_once 'vendor/autoload.php';
 
 dispatch('/', 'hello_world');
-function hello_world() {
-	return "Hello world!";
+function hello_world()
+{
+    return 'Hello world!';
 }
 
 run();

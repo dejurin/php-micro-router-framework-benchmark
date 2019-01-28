@@ -6,7 +6,7 @@ use BearFramework\App;
 
 $app = new App();
 
-$app->routes->add('/', function() {
+$app->routes->add('/', function () {
     return new App\Response('Hello world!');
 });
 

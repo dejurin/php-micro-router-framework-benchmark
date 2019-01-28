@@ -2,7 +2,7 @@
 
 require 'vendor/autoload.php';
 
-Flight::route('/', function(){
+Flight::route('/', function () {
     echo 'Hello world!';
 });
 
