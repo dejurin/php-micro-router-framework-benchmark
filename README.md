@@ -52,7 +52,9 @@ These are my benchmarks, not yours. **I encourage you to run on your (production
 ![Exec time](img/WRK_screenshot-localhost-2019.01.27_3.png)
 ![Memory (MB)](img/WRK_screenshot-localhost-2019.01.27_4.png)
 
-**CentOS 7.6**
+**CentOS 7.6** my server
+* Apache/2.4.6
+* PHP 7.3.1
 
 |framework          |requests per second|relative|peak memory|relative|files|          type|
 |-------------------|------------------:|-------:|----------:|-------:|----:|-------------:|
@@ -69,7 +71,9 @@ These are my benchmarks, not yours. **I encourage you to run on your (production
 |fatfree            |           1,049.13|     1.8|       1.50|     3.6|    6|         micro|
 |Slim-3.x           |             595.05|     1.0|       1.39|     3.4|   56|         micro|
 
-**macOS Mojave 10.14.2**
+**macOS Mojave 10.14.2** my desktop
+* Apache/2.4.34
+* PHP 7.3.1 with Zend OPcache v7.3.1
 
 |framework          |requests per second|relative|peak memory|relative|files|          type|
 |-------------------|------------------:|-------:|----------:|-------:|----:|-------------:|
