@@ -46,10 +46,15 @@ If you find something wrong with my code, please feel free to send Pull Requests
 These are my benchmarks, not yours. **I encourage you to run on your (production equivalent) environments.**
 (2019/01/27)
 
+[**Show charts**](https://codepen.io/currencyrate_today/pen/gqrBEa)
 ![Requests per second](img/WRK_screenshot-localhost-2019.01.27_1.png)
 ![Included files](img/WRK_screenshot-localhost-2019.01.27_2.png)
 ![Exec time](img/WRK_screenshot-localhost-2019.01.27_3.png)
 ![Memory (MB)](img/WRK_screenshot-localhost-2019.01.27_4.png)
+
+**CentOS 7.6** my server
+* Apache/2.4.6
+* PHP 7.3.1
 
 |framework          |requests per second|relative|peak memory|relative|files|          type|
 |-------------------|------------------:|-------:|----------:|-------:|----:|-------------:|
@@ -65,6 +70,25 @@ These are my benchmarks, not yours. **I encourage you to run on your (production
 |bearframework      |           1,065.35|     1.8|       0.94|     2.3|   22|         micro|
 |fatfree            |           1,049.13|     1.8|       1.50|     3.6|    6|         micro|
 |Slim-3.x           |             595.05|     1.0|       1.39|     3.4|   56|         micro|
+
+**macOS Mojave 10.14.2** my desktop
+* Apache/2.4.34
+* PHP 7.3.1 with Zend OPcache v7.3.1
+
+|framework          |requests per second|relative|peak memory|relative|files|          type|
+|-------------------|------------------:|-------:|----------:|-------:|----:|-------------:|
+|no-framework       |           4,573.15|     7.2|       0.37|     1.0|    1|  no-framework|
+|AltoRouter         |           2,617.56|     4.1|       0.47|     1.3|    6|        router|
+|PHP-Router         |           2,417.23|     3.8|       0.47|     1.3|    8|        router|
+|FastRoute          |           1,947.44|     3.1|       0.51|     1.4|   15|        router|
+|flight             |           1,545.02|     2.4|       0.63|     1.7|   15|         micro|
+|tipsy              |           1,410.26|     2.2|       0.61|     1.6|   16|         micro|
+|siler-1.3          |           1,330.79|     2.1|       0.77|     2.1|   22|         micro|
+|klein.php          |           1,246.66|     2.0|       0.74|     2.0|   20|        router|
+|limonade           |           1,193.01|     1.9|       1.00|     2.7|    6|         micro|
+|bearframework      |           1,108.75|     1.8|       0.90|     2.4|   22|         micro|
+|fatfree            |           1,062.73|     1.7|       1.44|     3.9|    6|         micro|
+|Slim-3.x           |             631.79|     1.0|       1.31|     3.5|   56|         micro|
 
 Note(1): This benchmarks are limited by `wrk` https://github.com/wg/wrk performance.
 
