@@ -151,3 +151,4 @@ If you want to see current configuration, run `sudo sysctl -a`.
 * [Slim](http://www.slimframework.com/) ([@slimphp](https://twitter.com/slimphp))
 * [Ham](https://github.com/radiosilence/Ham)
 * [yolo](https://yolophp.computer/)
+* [mu](https://github.com/jeremeamia/mu)
