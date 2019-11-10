@@ -149,3 +149,5 @@ If you want to see current configuration, run `sudo sysctl -a`.
 * [Bear Framework](https://bearframework.com/)
 * [Klein.php](https://github.com/klein/klein.php)
 * [Slim](http://www.slimframework.com/) ([@slimphp](https://twitter.com/slimphp))
+* [Ham](https://github.com/radiosilence/Ham)
+* [yolo](https://yolophp.computer/)
