@@ -6,8 +6,7 @@ require __DIR__.'/../libs/recalc_relative.php';
 
 $list = [
     'flight',
-    'ci-3.1',
-    'siler-1.3',
+    'siler-4',
 ];
 
 system('git checkout master');

@@ -1,0 +1,5 @@
+{
+    "require": {
+        "radiosilence/ham": "dev-master"
+    }
+}

@@ -2,15 +2,18 @@
 
 list="
 no-framework
+mu
+Ham
+yolo
 AltoRouter
 PHP-Router
 FastRoute
-klein.php
+klein-php
 fatfree
 flight
 limonade
-siler-1.3
-Slim-3.x
+siler
+Slim-4
 tipsy
 bearframework
 "

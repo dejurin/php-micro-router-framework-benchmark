@@ -1,6 +1,6 @@
 #!/bin/sh
 
-base="http://localhost/php-micro-router-framework-benchmark/frameworks"
+base="http://localhost:8000/php-micro-router-framework-benchmark/frameworks"
 
 cd `dirname $0`
 

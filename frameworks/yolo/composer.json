@@ -1,0 +1,5 @@
+{
+    "require": {
+        "igorw/yolo": "dev-master"
+    }
+}

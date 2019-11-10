@@ -1,0 +1,6 @@
+{
+    "require": {
+        "slim/slim": "^4.3",
+        "slim/psr7": "dev-master"
+    }
+}

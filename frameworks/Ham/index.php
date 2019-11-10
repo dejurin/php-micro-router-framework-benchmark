@@ -2,10 +2,10 @@
 
 require 'vendor/autoload.php';
 
-$app = new Slim\App();
+$app = new Ham();
 
-$app->get('/', function ($request, $response, $args) {
-    return $response->getBody()->write('Hello world!');
+$app->route('/php-micro-router-framework-benchmark/frameworks/Ham/', function ($app) {
+    return 'Hello world!';
 });
 
 $app->run();
