@@ -1,0 +1,59 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "48ea5599c0252c7ef5b270d974dda82a",
+    "packages": [
+        {
+            "name": "radiosilence/ham",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/radiosilence/Ham.git",
+                "reference": "25b93ffd6128ae292169da77e745b6daecddb3c5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/radiosilence/Ham/zipball/25b93ffd6128ae292169da77e745b6daecddb3c5",
+                "reference": "25b93ffd6128ae292169da77e745b6daecddb3c5",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3"
+            },
+            "suggest": {
+                "XCache (http://xcache.lighttpd.net/)": "Either XCache or APC is required. XCache is preferred.",
+                "ext-apc": "Either XCache or APC is required. XCache is preferred."
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "ham/ham.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-2-Clause"
+            ],
+            "description": "PHP Microframework for use with whatever you like.",
+            "homepage": "https://github.com/radiosilence/Ham",
+            "keywords": [
+                "microframework",
+                "router"
+            ],
+            "time": "2015-07-03T09:43:07+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "radiosilence/ham": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

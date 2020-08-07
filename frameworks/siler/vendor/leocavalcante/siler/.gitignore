@@ -1,0 +1,6 @@
+*.cache
+/*.phar
+/.idea/
+/coverage-*
+/issues/
+/vendor/

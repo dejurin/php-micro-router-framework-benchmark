@@ -1,0 +1,15 @@
+frameworks/no-framework/_benchmark/setup.sh
+frameworks/mu/_benchmark/setup.sh
+frameworks/Ham/_benchmark/setup.sh
+frameworks/yolo/_benchmark/setup.sh
+frameworks/AltoRouter/_benchmark/setup.sh
+frameworks/PHP-Router/_benchmark/setup.sh
+frameworks/FastRoute/_benchmark/setup.sh
+frameworks/klein-php/_benchmark/setup.sh
+frameworks/fatfree/_benchmark/setup.sh
+frameworks/flight/_benchmark/setup.sh
+frameworks/limonade/_benchmark/setup.sh
+frameworks/siler/_benchmark/setup.sh
+frameworks/Slim-4/_benchmark/setup.sh
+frameworks/tipsy/_benchmark/setup.sh
+frameworks/bearframework/_benchmark/setup.sh

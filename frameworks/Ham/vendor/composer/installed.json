@@ -1,0 +1,43 @@
+[
+    {
+        "name": "radiosilence/ham",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/radiosilence/Ham.git",
+            "reference": "25b93ffd6128ae292169da77e745b6daecddb3c5"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/radiosilence/Ham/zipball/25b93ffd6128ae292169da77e745b6daecddb3c5",
+            "reference": "25b93ffd6128ae292169da77e745b6daecddb3c5",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3"
+        },
+        "suggest": {
+            "XCache (http://xcache.lighttpd.net/)": "Either XCache or APC is required. XCache is preferred.",
+            "ext-apc": "Either XCache or APC is required. XCache is preferred."
+        },
+        "time": "2015-07-03T09:43:07+00:00",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "files": [
+                "ham/ham.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-2-Clause"
+        ],
+        "description": "PHP Microframework for use with whatever you like.",
+        "homepage": "https://github.com/radiosilence/Ham",
+        "keywords": [
+            "microframework",
+            "router"
+        ]
+    }
+]

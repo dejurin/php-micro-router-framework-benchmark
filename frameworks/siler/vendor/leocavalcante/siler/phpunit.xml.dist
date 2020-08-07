@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit bootstrap="vendor/autoload.php" colors="true" verbose="true">
+  <testsuites>
+    <testsuite name="Unit">
+      <directory>tests/Unit</directory>
+    </testsuite>
+
+    <testsuite name="Integration">
+      <directory>tests/Integration</directory>
+    </testsuite>
+  </testsuites>
+
+  <filter>
+    <whitelist processUncoveredFilesFromWhitelist="true">
+      <directory>src</directory>
+      <exclude>
+        <file>src/Swoole/Swoole.php</file>
+        <file>src/Db/Db.php</file>
+        <file>src/Db/Mongo.php</file>
+      </exclude>
+    </whitelist>
+  </filter>
+
+  <logging>
+    <log type="coverage-clover" target="coverage-clover.xml" />
+    <log type="coverage-html" target="coverage-html" />
+    <log type="coverage-text" target="php://stdout" showUncoveredFiles="true" />
+  </logging>
+</phpunit>
